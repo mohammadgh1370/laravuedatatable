@@ -14,8 +14,8 @@ with change code and structure.
 ```
 1- clone or download zip project.
 2- generate key -> php artisan key:generate.
-3- composer install and npm run install then npm run awatch.
-4- this project use sqlite in database/database.sqlite root directory and set -> DB_CONNECTION=sqlite in .env file.
+3- composer install and npm run install then ->npm run dev and npm run adev.
+4- if use sqlite -> touch database/database.sqlite and set -> DB_CONNECTION=sqlite in .env file.
 5- migrate tables and seed fake data with -> php artisan migrate --seed.
 6- go to this route -> localhost:8000/admin/dashboard.
 ```
