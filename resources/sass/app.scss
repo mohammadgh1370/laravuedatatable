@@ -1,0 +1,62 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap-v4-rtl';
+@import "../css/bootstrap-style.css";
+
+//font-awesome
+@import "font-awesome/fontawesome";
+@import "font-awesome/solid";
+@import "font-awesome/regular";
+@import "font-awesome/light";
+@import "font-awesome/duotone";
+@import "font-awesome/brands";
+
+@font-face {
+  font-family: Sans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum)_Bold.eot');
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: Sans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum).eot');
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum).woff2') format('woff2'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum).woff') format('woff'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: Sans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum)_Light.eot');
+  src: url('../fonts/iran-sans/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+  url('../fonts/iran-sans/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+.sans {
+  font-family: Sans!important;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .custom-select.is-invalid {
+  border-color: #dc3545;
+  padding-right: 30px!important;
+}
+
+.img-w100{
+    width: 100px!important;
+}

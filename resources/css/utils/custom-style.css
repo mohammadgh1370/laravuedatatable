@@ -1,0 +1,386 @@
+
+
+/*---------------------------------- End of fonts ---------------------------------- */
+
+.ltr {
+    direction:ltr;
+}
+
+.rtl {
+    direction:rtl;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: inherit;
+}
+
+[dir="rtl"] .sidebar .nav-sidebar li.nav-item a.nav-link{
+    text-align: right !important;
+}
+
+[dir="rtl"] .nav-pills > li + li {
+    margin-right: 2px;
+    margin-left:0 !important;
+}
+
+.pointer{
+    cursor: pointer;
+}
+/*.navbar-nav li.nav-item a.nav-link i.fa {*/
+/*    font-size: 1.4em;*/
+/*}*/
+
+div.dropdown-menu.dropdown-menu-lg.dropdown-menu-left.show > a.dropdown-item {
+    color: black !important;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+.dropdown-footer, .dropdown-header {
+    text-align: center;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-left: .5rem;
+}
+
+
+/*------------------------------------ contacts-list ------------------------------------*/
+
+[dir="rtl"] .contacts-list-img {
+    float: right;
+}
+
+[dir="rtl"] .contacts-list-info {
+    margin-right: 45px;
+    margin-left: 0;
+}
+
+
+/* sidebar */
+
+[dir="rtl"] .sidebar {
+    direction: ltr;
+}
+
+[dir="rtl"] .sidebar > div:first-child {
+    direction: rtl;
+}
+
+[dir="rtl"] .control-sidebar,
+[dir="rtl"] .control-sidebar:before {
+    left: -250px;
+    right: auto;
+    transition: left .3s ease-in-out;
+}
+
+[dir="rtl"] .control-sidebar-slide-open .control-sidebar,
+[dir="rtl"] .control-sidebar-slide-open .control-sidebar:before {
+    left: 0;
+    right: auto;
+}
+
+[dir="rtl"] .small-box .icon {
+    right:auto;
+    left:10px;
+}
+
+[dir="rtl"] .nav-sidebar .nav-link>p>.right {
+    left: 1rem;
+    right: auto;
+}
+
+[dir="rtl"] .nav-sidebar>.nav-item .nav-icon {
+    margin-right: 0;
+    margin-left: .2rem;
+}
+
+@media (min-width: 992px) {
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .content-wrapper,
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-footer,
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-header {
+        margin-right: 4.6rem;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .content-wrapper,
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-footer,
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-header {
+        margin-left: 0rem !important;
+        margin-right: 4.6rem !important;
+        z-index:100;
+    }
+
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-sidebar,
+    [dir="rtl"] .sidebar-mini.sidebar-collapse .main-sidebar:before {
+        margin-right: 0;
+        width: 4.6rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    [dir="rtl"] .main-sidebar, .main-sidebar:before {
+        box-shadow: none!important;
+        margin-right: -250px;
+        margin-left: 0;
+    }
+
+    [dir="rtl"] .content-wrapper,
+    [dir="rtl"] .content-wrapper:before,
+    [dir="rtl"] .main-footer,
+    [dir="rtl"] .main-footer:before,
+    [dir="rtl"] .main-header,
+    [dir="rtl"] .main-header:before {
+        margin-right: 0;
+    }
+
+    [dir="rtl"] .sidebar-open .main-sidebar,
+    [dir="rtl"] .sidebar-open .main-sidebar:before {
+        margin-right: 0;
+        z-index: 4000;
+    }
+}
+
+[dir="rtl"] .sidebar-collapse .main-sidebar,
+[dir="rtl"] .sidebar-collapse .main-sidebar:before {
+    margin-right: -250px;
+}
+
+[dir="rtl"] .main-sidebar {
+    left: auto;
+    right:0;
+}
+
+/* Cards */
+
+[dir="rtl"] .card-header>.card-tools {
+    right:auto;
+    left:1rem;
+}
+
+[dir="rtl"] .user-block img {
+     float: right;
+}
+
+[dir="rtl"] .attachment-block .attachment-img {
+    float: right;
+}
+
+[dir="rtl"] .attachment-block .attachment-pushed {
+    margin-left: 0px;
+    margin-right: 110px;
+}
+
+[dir="rtl"] .card-comments .card-comment img,
+[dir="rtl"] .img-lg,
+[dir="rtl"] .img-md,
+[dir="rtl"] .img-sm,
+[dir="rtl"] .user-block.user-block-sm img {
+    float: right;
+}
+
+[dir="rtl"] .card-comments .comment-text {
+    margin-right: 40px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .card-comments .card-comment img+.img-push,
+[dir="rtl"] .img-sm+.img-push,
+[dir="rtl"] .user-block.user-block-sm img+.img-push {
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+[dir="rtl"] .user-block .comment,
+[dir="rtl"] .user-block .description,
+[dir="rtl"] .user-block .username {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.btn-group-vertical {
+    align-items: center;
+}
+
+
+/*------------------------- Form ----------------------------*/
+[dir="rtl"] .select2-container .select2-search--inline {
+    float: right;
+}
+
+[dir="rtl"] .select2-container--default .select2-search--inline .select2-search__field {
+    text-align: right;
+}
+
+/*----------------------- Extra Page ---------------------------*/
+[dir="rtl"] .error-page>.headline {
+    float: right;
+}
+
+[dir="rtl"] .error-page>.error-content {
+    margin-right: 190px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .lockscreen-image {
+    left: auto;
+    right:-10px;
+}
+
+[dir="rtl"] .lockscreen-credentials {
+    margin-left: 0px;
+    margin-right: 70px;
+}
+
+[dir="rtl"] .nav {
+    padding-inline-start: 0px !important;
+}
+
+/*---------------------------------- Persian Date Picker ---------------------------------- */
+
+.datepicker-plot-area {
+    font-family: 'Vazir', sans-serif;
+}
+
+/*---------------------------------- Input Checkbox custom ---------------------------------- */
+
+.check-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 10px;
+}
+
+/* Hide the browser's default checkbox */
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+
+/* Create a custom checkbox */
+.check-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #ccc;
+    border-radius: 7px;
+}
+
+/* On mouse-over, add a grey background color */
+.check-container:hover input ~ .check-mark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-container input:checked ~ .check-mark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.check-mark:after {
+    content: "\2713";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check-container input:checked ~ .check-mark:after {
+    display: block;
+    right: 4px;
+    top: 0;
+    color: white;
+}
+
+/*---------------------------------- Input Radio custom ---------------------------------- */
+
+/* Customize the label (the container) */
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.radio-mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .radio-mark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .radio-mark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-mark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .radio-mark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .radio-mark:after {
+    top: 5px;
+    left: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.modal {
+    z-index: 3050!important;
+}
+
+.modal-backdrop {
+    z-index: 3040!important;
+}

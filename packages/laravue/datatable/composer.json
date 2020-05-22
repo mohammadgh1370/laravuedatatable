@@ -1,0 +1,23 @@
+{
+    "name": "laravue/datatable",
+    "authors": [
+        {
+            "name": "mohammad ghorbani",
+            "email": "mohammadghorbani1992@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laravue\\Datatable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravue\\Datatable\\DatatableServiceProvider"
+            ]
+        }
+    }
+}
