@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "panel/app/js/" + ({"vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08":"vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08","js/components/admin/EditAdmin~js/components/admin/EditRole":"js/components/admin/EditAdmin~js/components/admin/EditRole","js/components/admin/EditAdmin":"js/components/admin/EditAdmin","js/components/admin/EditRole":"js/components/admin/EditRole","js/components/admin/EditPermission":"js/components/admin/EditPermission","js/components/admin/EditUser":"js/components/admin/EditUser","js/components/utils/FlashMessage":"js/components/utils/FlashMessage","js/components/utils/ImageTableToolTip":"js/components/utils/ImageTableToolTip","vendors~js/components/datatable/src/components/DataTable":"vendors~js/components/datatable/src/components/DataTable","js/components/datatable/src/components/DataTable":"js/components/datatable/src/components/DataTable"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "panel/app/js/" + ({"vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029":"vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029","js/components/admin/EditPermission":"js/components/admin/EditPermission","js/components/admin/EditUser":"js/components/admin/EditUser","js/components/utils/FlashMessage":"js/components/utils/FlashMessage","js/components/utils/ImageTableToolTip":"js/components/utils/ImageTableToolTip","js/components/utils/SelectSearch":"js/components/utils/SelectSearch","js/components/admin/EditAdmin":"js/components/admin/EditAdmin","js/components/admin/EditRole":"js/components/admin/EditRole","vendors~js/components/datatable/src/components/DataTable":"vendors~js/components/datatable/src/components/DataTable","js/components/datatable/src/components/DataTable":"js/components/datatable/src/components/DataTable"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -182,7 +182,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "http:/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -14512,26 +14512,28 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 window.eventBus = new Vue({});
 Vue.component('data-table', function () {
-  return Promise.all(/*! import() | js/components/datatable/src/components/DataTable */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("vendors~js/components/datatable/src/components/DataTable"), __webpack_require__.e("js/components/datatable/src/components/DataTable")]).then(__webpack_require__.bind(null, /*! ./components/datatable/src/components/DataTable */ "./resources/js/components/datatable/src/components/DataTable.vue"));
+  return Promise.all(/*! import() | js/components/datatable/src/components/DataTable */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("vendors~js/components/datatable/src/components/DataTable"), __webpack_require__.e("js/components/datatable/src/components/DataTable")]).then(__webpack_require__.bind(null, /*! ./components/datatable/src/components/DataTable */ "./resources/js/components/datatable/src/components/DataTable.vue"));
 });
 Vue.component('flash', function () {
-  return Promise.all(/*! import() | js/components/utils/FlashMessage */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/utils/FlashMessage")]).then(__webpack_require__.bind(null, /*! ./components/FlashMessage */ "./resources/js/components/FlashMessage.vue"));
+  return Promise.all(/*! import() | js/components/utils/FlashMessage */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/utils/FlashMessage")]).then(__webpack_require__.bind(null, /*! ./components/FlashMessage */ "./resources/js/components/FlashMessage.vue"));
 });
 Vue.component('image-table-tool-tip', function () {
-  return Promise.all(/*! import() | js/components/utils/ImageTableToolTip */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/utils/ImageTableToolTip")]).then(__webpack_require__.bind(null, /*! ./components/ImageTableToolTip */ "./resources/js/components/ImageTableToolTip.vue"));
-}); // Vue.component('select-search', () => import('./components/SelectSearch'/* webpackChunkName: "js/components/utils/SelectSearch" */));
-
+  return Promise.all(/*! import() | js/components/utils/ImageTableToolTip */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/utils/ImageTableToolTip")]).then(__webpack_require__.bind(null, /*! ./components/ImageTableToolTip */ "./resources/js/components/ImageTableToolTip.vue"));
+});
+Vue.component('select-search', function () {
+  return Promise.all(/*! import() | js/components/utils/SelectSearch */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/utils/SelectSearch")]).then(__webpack_require__.bind(null, /*! ./components/SelectSearch */ "./resources/js/components/SelectSearch.vue"));
+});
 Vue.component('edit-permission', function () {
-  return Promise.all(/*! import() | js/components/admin/EditPermission */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/admin/EditPermission")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditPermission */ "./resources/js/components/admin/EditPermission.vue"));
+  return Promise.all(/*! import() | js/components/admin/EditPermission */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/admin/EditPermission")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditPermission */ "./resources/js/components/admin/EditPermission.vue"));
 });
 Vue.component('edit-role', function () {
-  return Promise.all(/*! import() | js/components/admin/EditRole */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/admin/EditAdmin~js/components/admin/EditRole"), __webpack_require__.e("js/components/admin/EditRole")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditRole */ "./resources/js/components/admin/EditRole.vue"));
+  return Promise.all(/*! import() | js/components/admin/EditRole */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/utils/SelectSearch"), __webpack_require__.e("js/components/admin/EditRole")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditRole */ "./resources/js/components/admin/EditRole.vue"));
 });
 Vue.component('edit-admin', function () {
-  return Promise.all(/*! import() | js/components/admin/EditAdmin */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/admin/EditAdmin~js/components/admin/EditRole"), __webpack_require__.e("js/components/admin/EditAdmin")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditAdmin */ "./resources/js/components/admin/EditAdmin.vue"));
+  return Promise.all(/*! import() | js/components/admin/EditAdmin */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/utils/SelectSearch"), __webpack_require__.e("js/components/admin/EditAdmin")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditAdmin */ "./resources/js/components/admin/EditAdmin.vue"));
 });
 Vue.component('edit-user', function () {
-  return Promise.all(/*! import() | js/components/admin/EditUser */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08"), __webpack_require__.e("js/components/admin/EditUser")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditUser */ "./resources/js/components/admin/EditUser.vue"));
+  return Promise.all(/*! import() | js/components/admin/EditUser */[__webpack_require__.e("vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029"), __webpack_require__.e("js/components/admin/EditUser")]).then(__webpack_require__.bind(null, /*! ./components/admin/EditUser */ "./resources/js/components/admin/EditUser.vue"));
 });
 var app = new Vue({
   el: '#admin'

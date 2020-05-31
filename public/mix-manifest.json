@@ -1,14 +1,13 @@
 {
     "/panel/admin/js/admin.js": "/panel/admin/js/admin.js",
     "/panel/app/js/js/components/admin/EditAdmin.js": "/panel/app/js/js/components/admin/EditAdmin.js",
-    "/panel/app/js/js/components/admin/EditAdmin~js/components/admin/EditRole~js/components/admin/EditUser.js": "/panel/app/js/js/components/admin/EditAdmin~js/components/admin/EditRole~js/components/admin/EditUser.js",
     "/panel/app/js/js/components/admin/EditPermission.js": "/panel/app/js/js/components/admin/EditPermission.js",
     "/panel/app/js/js/components/admin/EditRole.js": "/panel/app/js/js/components/admin/EditRole.js",
     "/panel/app/js/js/components/admin/EditUser.js": "/panel/app/js/js/components/admin/EditUser.js",
     "/panel/app/js/js/components/datatable/src/components/DataTable.js": "/panel/app/js/js/components/datatable/src/components/DataTable.js",
     "/panel/app/js/js/components/utils/FlashMessage.js": "/panel/app/js/js/components/utils/FlashMessage.js",
     "/panel/app/js/js/components/utils/ImageTableToolTip.js": "/panel/app/js/js/components/utils/ImageTableToolTip.js",
-    "/panel/app/js/vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08.js": "/panel/app/js/vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~92e0de08.js",
-    "/panel/app/js/vendors~js/components/datatable/src/components/DataTable.js": "/panel/app/js/vendors~js/components/datatable/src/components/DataTable.js",
-    "/panel/app/js/js/components/admin/EditAdmin~js/components/admin/EditRole.js": "/panel/app/js/js/components/admin/EditAdmin~js/components/admin/EditRole.js"
+    "/panel/app/js/js/components/utils/SelectSearch.js": "/panel/app/js/js/components/utils/SelectSearch.js",
+    "/panel/app/js/vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029.js": "/panel/app/js/vendors~js/components/admin/EditAdmin~js/components/admin/EditPermission~js/components/admin/EditRol~ef140029.js",
+    "/panel/app/js/vendors~js/components/datatable/src/components/DataTable.js": "/panel/app/js/vendors~js/components/datatable/src/components/DataTable.js"
 }

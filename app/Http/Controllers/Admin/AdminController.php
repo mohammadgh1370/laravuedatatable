@@ -30,9 +30,9 @@ class AdminController extends Controller
         return view('admin.admin.index', compact('props'));
     }
 
-    public function show(User $user)
+    public function show(Admin $admin)
     {
-        return $user;
+        return $admin;
     }
 
     public function update(Request $request,Admin $admin)

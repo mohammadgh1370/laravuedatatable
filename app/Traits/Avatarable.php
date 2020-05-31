@@ -20,7 +20,7 @@ trait Avatarable
     // آدرس عکس اواتار
     public function getAvatarAttribute()
     {
-        return Cache::rememberForever('avatar' . $this->attributes['id'], function () {
+        return Cache::rememberForever('avatar' . $this->id, function () {
             return "https://ui-avatars.com/api/?name=" . $this->getNameUser() . "&bold=true&background=" . $this->getAvatarBackground() . "&color=" . $this->getAvatarColor();
         });
     }
@@ -28,7 +28,7 @@ trait Avatarable
     // رنگ پس زمینه اواتار
     public function getAvatarBackground()
     {
-        return Cache::rememberForever('avatar_background' . $this->attributes['id'], function () {
+        return Cache::rememberForever('avatar_background' . $this->id, function () {
             return $this->rand_color(2);
         });
     }
@@ -36,7 +36,7 @@ trait Avatarable
     // رنگ متن اواتار
     public function getAvatarColor()
     {
-        return Cache::rememberForever('avatar_color' . $this->attributes['id'], function () {
+        return Cache::rememberForever('avatar_color' . $this->id, function () {
             return $this->rand_color();
         });
     }

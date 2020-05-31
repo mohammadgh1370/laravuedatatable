@@ -19,7 +19,6 @@ class UserController extends Controller
         if (request()->ajax()) {
             $data = User::eloquentQuery(request('column'), request('dir', 'desc'), request('search'))
                 ->with('info')->paginate(request('length'));
-            info($data);
             return new DataTableCollectionResource($data);
         }
 
