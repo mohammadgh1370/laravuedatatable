@@ -43,9 +43,9 @@ class AdminController extends Controller
         return $this->jsonResponse(1,null,'با موفقیت انجام شد');
     }
 
-    public function destroy(User $user)
+    public function destroy(Admin $admin)
     {
-        $user->delete();
+        $admin->delete();
         return $this->jsonResponse(1,null,'با موفقیت انجام شد');
     }
 
